@@ -1,0 +1,155 @@
+
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(68, 189, 177);
+    padding:20px;
+    background-image: linear-gradient(rgba(68, 189, 177, 0.5), rgba(68, 189, 177, 0.5)),url("coding.jpg");
+}
+
+#banner {
+    display: flex;
+
+}
+
+#banner > *{
+    flex:1;
+
+}
+
+#left{
+    display: flex;
+    gap: 20%;
+    justify-items:center;
+    align-content:last baseline;
+}
+
+
+#this_page_content{
+    background-color: none;
+    text-transform: uppercase;
+    color:white;
+}
+
+
+.logo {
+    background-color: aliceblue;
+    width: 20%;
+    text-align: center;
+    border-radius: 50%;
+    height: 60px;
+    position: relative;
+    margin-left: 10%;
+    border: 5px solid red;
+    box-shadow: 3px 5px 3px 3px red;
+    rotate: x 30deg;
+
+}
+.logo h5{
+    position: absolute;
+    left:14%;
+    top:-0.6em;
+    font-size: 1em;
+}
+
+#nav-menu  {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap:2em;
+    padding-right: 40px;
+
+}
+
+#right {
+    display: flex;
+    flex-direction: row;
+}
+
+#right ul li {
+    background-color:none;
+    text-align: center;
+    width: 7vw;
+    height:2.5vw;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(190, 182, 182);
+    color:azure;
+}
+
+#right ul a{
+    text-decoration: none;
+    color:rgb(184, 207, 207);
+    flex: 1;
+}
+
+#right ul li:hover {
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+
+}
+
+#project2{
+    background-color: rgba(0,0,0, 0.2);
+    
+}
+#project1, #project3{
+    background-color: rgba(0,0,0, 0.4 );
+    
+}
+#project1, #project2, #project3{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    
+}
+
+#project1_left,#project2_left,#project3_left{
+    width:50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+#project1_right,#project2_right,#project3_right{
+    width:50vw;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#content *{
+    color: azure;
+    line-height: 2em;  
+    
+}
+img{
+    width:80%;
+    aspect-ratio: 16/9;
+    border-radius: 50px;
+}
+
+#content h3{
+    margin: 0;
+}
+
+.description{
+    padding: 5%;
+}

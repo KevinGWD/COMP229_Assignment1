@@ -1,0 +1,211 @@
+
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(68, 189, 177);
+    padding:20px;
+    background-image: linear-gradient(rgba(68, 189, 177, 0.5), rgba(68, 189, 177, 0.5)),url("coding.jpg");
+}
+
+#banner {
+    display: flex;
+
+}
+
+#banner > *{
+    flex:1;
+
+}
+
+#left{
+    display: flex;
+    gap: 20%;
+    justify-items:center;
+    align-content:last baseline;
+}
+
+#this_page_content{
+    background-color: none;
+    text-transform: uppercase;
+    color:white;
+}
+
+#my_resume a{
+    text-decoration: none;
+    color: antiquewhite;
+
+}
+
+
+.logo {
+    background-color: aliceblue;
+    width: 20%;
+    text-align: center;
+    border-radius: 50%;
+    height: 60px;
+    position: relative;
+    margin-left: 10%;
+    border: 5px solid red;
+    box-shadow: 3px 5px 3px 3px red;
+    rotate: x 30deg;
+
+}
+.logo h5{
+    position: absolute;
+    left:14%;
+    top:-0.6em;
+    font-size: 1em;
+}
+
+#nav-menu  {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap:2em;
+    padding-right: 40px;
+
+}
+
+#right {
+    display: flex;
+    flex-direction: row;
+}
+
+#right ul li {
+    background-color:none;
+    text-align: center;
+    width: 7vw;
+    height:2.5vw;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(190, 182, 182);
+    color:azure;
+}
+
+#right ul a{
+    text-decoration: none;
+    color:rgb(184, 207, 207);
+    flex: 1;
+}
+#right ul li:hover {
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.form-container h1, span, button{
+    color:antiquewhite;
+}
+
+.form-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+form {
+    width: 40vw;
+    max-width: 650px;
+}
+input, textarea, button{
+    background: transparent;
+    border: 2px solid rgb(190, 182, 182);
+    border-radius: 5px;
+    font-size: large;
+    color:antiquewhite;
+}
+form>*{
+    padding:20px;
+}
+
+.personal-inform{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.personal-inform>*{
+    width: 40%;
+    margin-bottom:20px;
+}
+.personal-inform input {
+    width: 100%;
+}
+.propertytype{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.propertytype.type{
+  flex:1
+}
+.roomtype{
+display: flex;
+justify-content: space-between;
+}
+
+
+.room-price{
+    display: flex;   
+    gap:30%;
+    
+    flex-wrap: wrap;
+}
+.room-price>*{
+    flex:1;
+}
+.room-price input{
+    width: 100%;
+}
+
+
+
+.room{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+textarea{
+    width:100%;
+    height: 300px;
+}
+
+button{
+   
+    width: 100%;
+    background:transparent;
+    border: 2px solid white;
+    height: 40px;
+    padding:0;
+}
+
+
+.personal-inform span::after{
+    content: "*";
+    color:red;
+    
+}
+
+textarea:hover{
+    border:2px solid yellow;
+}
+
+input:hover{
+    border:2px solid yellow;
+}
+textarea:focus{
+    border:2px solid yellow;
+
+}
+
+input:focus{
+    border:2px solid yellow;
+}

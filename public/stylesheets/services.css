@@ -1,0 +1,140 @@
+
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(68, 189, 177);
+    padding:20px;
+    background-image: linear-gradient(rgba(68, 189, 177, 0.5), rgba(68, 189, 177, 0.5)),url("coding.jpg");
+}
+
+#banner {
+    display: flex;
+
+}
+
+#banner > *{
+    flex:1;
+
+}
+
+#left{
+    display: flex;
+    gap: 20%;
+    justify-items:center;
+}
+
+#this_page_content{
+    background-color: none;
+    text-transform: uppercase;
+    color:white;
+}
+
+#my_resume a{
+    text-decoration: none;
+    color: antiquewhite;
+
+}
+
+
+.logo {
+    background-color: aliceblue;
+    width: 20%;
+    text-align: center;
+    border-radius: 50%;
+    height: 60px;
+    position: relative;
+    margin-left: 10%;
+    border: 5px solid red;
+    box-shadow: 3px 5px 3px 3px red;
+    rotate: x 30deg;
+
+}
+.logo h5{
+    position: absolute;
+    left:14%;
+    top:-0.6em;
+    font-size: 1em;
+}
+
+#nav-menu  {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap:2em;
+    padding-right: 40px;
+
+}
+
+#right {
+    display: flex;
+    flex-direction: row;
+}
+
+#right ul li {
+    background-color:none;
+    text-align: center;
+    width: 7vw;
+    height:2.5vw;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(190, 182, 182);
+    color:azure;
+}
+
+#right ul a{
+    text-decoration: none;
+    color:rgb(184, 207, 207);
+    flex: 1;
+}
+
+#right ul li:hover {
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5vh;
+    margin: auto;
+    gap:10%;
+    padding-top: 10%;
+
+}
+#content >*{
+    flex:1;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    height: 50vh;
+
+}
+.ordernow{
+    margin: auto;
+    background-color: bisque;
+    margin: auto;  
+    padding:0.5em;
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+ .ordernow h2{
+    margin:0;
+ }
+ .ordernow a{
+    text-decoration: none;
+ }
+ .middle{
+    text-align: center;
+ }
+ .top{
+    margin-top:10%;
+    margin-left: 10%;
+ }
+
