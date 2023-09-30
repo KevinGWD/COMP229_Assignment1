@@ -1,4 +1,11 @@
+/* projects_javascripts   projects.js
+   Kevin Gao   
+   301289601
+   September 30, 2023 
+*/
 
+
+/* Banner section */
 * {
     font-family: sans-serif;
     box-sizing: border-box;
@@ -61,6 +68,8 @@ body {
     font-size: 1em;
 }
 
+
+/* Nav_bar */
 #nav-menu  {
     list-style-type: none;
     display: flex;
@@ -97,6 +106,9 @@ body {
     color: rgb(255, 255, 255);
     cursor: pointer;
 }
+
+
+/* Content section */
 
 #content *{
    
